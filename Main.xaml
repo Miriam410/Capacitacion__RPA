@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="466,1646" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="466,1607" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -60,25 +60,25 @@
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="476,1581" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap:VirtualizedContainerService.HintSize="476,1542" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Sin título: Bloc de notas" sap:VirtualizedContainerService.HintSize="434,1489" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="68b8e85c-e53b-4296-940c-62785bcddb22" Version="V1">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Sin título: Bloc de notas" sap:VirtualizedContainerService.HintSize="434,1450" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="68b8e85c-e53b-4296-940c-62785bcddb22" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,1160" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,1161" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,223" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="Hola estoy escribiendo desde UiPath a Notepad!" Version="V1" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,223" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="Hola estoy escribiendo desde UiPath a Notepad !!" Version="V1" />
             <uix:NClick ClickType="Single" DisplayName="Click 'Archivo'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68b8e85c-e53b-4296-940c-62785bcddb22" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable DesignTimeRectangle="8, 31, 55, 19" FriendlyName="'Archivo'" FullSelectorArgument="&lt;ctrl automationid='MenuBar' name='Aplicación' role='menu bar' /&gt;&lt;ctrl name='Archivo' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' name='Aplicación' role='menu bar' /&gt;&lt;ctrl name='Archivo' role='menu item' automationid='' check:text='Archivo' /&gt;" Guid="3130af7b-4716-4cbd-9572-9153e7424e62" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAAXCAYAAAC1Szf+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGeSURBVFhH7ZW9TsMwEIBv5BXyCKywWYgJCakDEgNUYmCq3Ampr8AIU0Yk3iMTrwBbp7xElBc4fP6Jz06aOICK5PaTrPYS17nvfE4BTh5wuVnhIQAAd0fZHDlE2aUN80a5vuFmtbBh3sB2+4GL81Mb5g3A1RqLs0sbTlNJQJCVjeZSoQSBZW1DTl2i2HXvjwC4f8bi4saGE1BCQqIUP01qRHYPAKzfsbh+tOE4dSlQqEzd53z+W/blE4vbJxuOUWPpdlTvcKmuOIyElEItKFVE0HzV8mCG6XwrW1HLmuu+aK4Q5nfBSakkgnuebvd43TTSZQNBJq6hRHniJuH+7pt5XeIk0RXHydrrzILeE75YTHDmOQd4/UqSjVuXYp8QS5TQSTgJTjQviOPvrAjBrobr+kJMkyhLD/et48fArhC/lvXFDYq8F1l+Zjr42Yolxto4TVaL6Tc/l6M5cRsPFXWYJFmqXj9xepZr5ViCMIm5LhguCo/je6Zgvf90LejWjZ85TvKZzYGjbK4cpmzbttmPTrZpmuzHzjamV3teIH4DAqua6KJq5ikAAAAASUVORK5CYII=" InformativeScreenshot="d528b91a7dff8f740fca46368737b70f.png" ScopeSelectorArgument="&lt;wnd app='notepad.exe' cls='Notepad' title='Sin título: Bloc de notas' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
